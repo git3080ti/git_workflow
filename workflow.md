@@ -13,10 +13,10 @@
 7. pr의 자동 merge가 불가능할 경우(conflict가 난 경우), 해당 pr을 보낸 팀원이 upstream을 pull 한 후, 자신의 origin 레포에 force push를 통해 pr을 수정한다. 
 
 ### Main
->최종적으로 Stable 버전이 반영되는, Release 가 가능한 Main 브랜치입니다.
->Release 이력을 관리하기 위해 사용하므로 **배포 가능한 상태만**을 관리합니다.
+>최종적으로 Stable 버전이 반영되는, Release 가 가능한 Main 브랜치입니다.  
+>Release 이력을 관리하기 위해 사용하므로 **배포 가능한 상태만**을 관리합니다.  
 
 ### Develop
->issue 나 features 브랜치의 구현이 완료되었을 때 종합하는 브랜치입니다. 
->또한, 간단한 코드 개선이나 issue 발행을 필요로 하지 않는 작업들이 이뤄집니다. 
->성능이 개선되고 기능이 정상 작동하면 main 브랜치에 merge합니다.
+>issue 나 features 브랜치의 구현이 완료되었을 때 종합하는 브랜치입니다.  
+>또한, 간단한 코드 개선이나 issue 발행을 필요로 하지 않는 작업들이 이뤄집니다.  
+>성능이 개선되고 기능이 정상 작동하면 main 브랜치에 merge합니다.  
