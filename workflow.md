@@ -20,3 +20,11 @@
 >issue 나 features 브랜치의 구현이 완료되었을 때 종합하는 브랜치입니다. 
 >또한, 간단한 코드 개선이나 issue 발행을 필요로 하지 않는 작업들이 이뤄집니다. 
 >성능이 개선되고 기능이 정상 작동하면 main 브랜치에 merge합니다.
+
+## Hotfix
+- stable release(main) 에 버그 등 **긴급한 이슈**가 보고되었을 경우, main 브랜치를 base branch로 해서 **hotfix** 브랜치를 만듭니다.  
+- 해당 문제가 해결되면 main branch에 merge 합니다. 
+merge된 **hotfix** 브랜치는 삭제합니다. 
+
+## ISSUE Tags  
+![repository_structure](./image/issue_tags.jpg)  
