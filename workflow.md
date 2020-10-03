@@ -14,6 +14,19 @@
 6. 같은 내용에 대해서 서로 다른 두개의 pr이 들어올 경우, 팀 회의를 통해 더 적합한 pr을 선택해서 merge한다.
 7. pr의 자동 merge가 불가능할 경우(conflict가 난 경우), 해당 pr을 보낸 팀원이 upstream을 pull 한 후, 자신의 origin 레포에 force push를 통해 pr을 수정한다.
 
+## Git 운영
+
+1. self merge 는 불가. 팀원 모두에게 lgtm 을 받으면 merge.
+2. git action 을 통해 통과가 되어야 함.
+3. 팀원 모두가 push, merge 권한을 갖고있음.
+4. 원본 저장소에서 fork하여 upstream에 PR을 날린다.
+
+## Branch
+
+### 도식화 - Branch 
+
+![branch_structure](./image/branch_structure.png)
+
 ### Main
 
 - 최종적으로 Stable 버전이 반영되는, Release 가 가능한 Main 브랜치입니다.
